@@ -65,7 +65,13 @@
     </style>
 </head>
 <body>
+    <!-- ✅ This message proves the page loaded -->
+    <div style="position: absolute; top: 10px; left: 10px; background: white; padding: 10px; border-radius: 10px;">
+        <strong>Yay! The page is loading 🎉</strong>
+    </div>
+
     <canvas id="gameCanvas" width="800" height="600"></canvas>
+    
     <div id="startScreen">
         <h1>Feed the Capybara</h1>
         <p>Click anywhere or press any key to play</p>
@@ -73,11 +79,13 @@
         <p>Press space to shoot tokens</p>
         <p>Collect 50 tokens to win!</p>
     </div>
+    
     <div id="gameOver">
         <h1>Game Over!</h1>
         <p>You fed the capybara!</p>
         <button id="resetButton">Play Again</button>
     </div>
+    
     <script src="game.js"></script>
 </body>
-</html> 
+</html>
