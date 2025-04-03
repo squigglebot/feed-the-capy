@@ -2,8 +2,6 @@
 
 A fun browser-based game where you feed a hungry capybara by shooting tokens into its mouth!
 
-https://squigglebot.github.io/feed-the-capy/
-
 
 ## How to Play
 
