@@ -2,7 +2,6 @@
 
 A fun browser-based game where you feed a hungry capybara by shooting tokens into its mouth!
 
-![Feed the Capy Game](https://raw.githubusercontent.com/squigglebot/feed-the-capy/gh-pages/screenshot.png)
 
 ## How to Play
 
@@ -28,13 +27,10 @@ A fun browser-based game where you feed a hungry capybara by shooting tokens int
 ## Technical Details
 
 This game is built using:
+- Cursor AI
 - HTML5 Canvas
 - JavaScript
 - CSS
-
-## Play Online
-
-Play the game at: [https://squigglebot.github.io/feed-the-capy/](https://squigglebot.github.io/feed-the-capy/)
 
 ## Local Development
 
@@ -50,7 +46,7 @@ To run the game locally:
 
 ## Credits
 
-Created by Moses Cassian
+Created by Moses Cassian, Age 9
 
 ## License
 
