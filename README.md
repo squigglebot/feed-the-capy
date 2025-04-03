@@ -2,6 +2,12 @@
 
 A fun browser-based game where you feed a hungry capybara by shooting tokens into its mouth!
 
+### Desktop Version (macOS)
+1. Download `FeedTheCapy.app` from the releases
+2. Double-click to run
+3. If you get a security warning:
+   - Go to System Preferences > Security & Privacy
+   - Click "Open Anyway"
 
 ## How to Play
 
