@@ -3,89 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feed the Capybara</title>
+    <title>Feed the Capy</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #87CEEB;
+            min-height: 100vh;
+            background-color: #87CEEB; /* Sky blue background */
             font-family: Arial, sans-serif;
         }
-        
         #gameCanvas {
             border: 2px solid #000;
-            background-color: #90EE90;
+            background-color: white;
         }
-        
         #startScreen {
             position: absolute;
-            width: 800px;
-            height: 600px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
             background-color: #0000FF;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
             color: white;
-            font-size: 24px;
-            cursor: pointer;
         }
-        
-        #gameOver {
-            position: absolute;
-            width: 800px;
-            height: 600px;
-            background-color: rgba(0, 0, 0, 0.7);
+        #startScreen h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        #startScreen p {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        #gameOverScreen {
             display: none;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: #FFFF00;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #gameOverScreen h1 {
+            font-size: 48px;
+            color: #0000FF;
+            margin-bottom: 20px;
+        }
+        #gameOverScreen p {
             font-size: 24px;
-        }
-        
-        #resetButton {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 18px;
-            cursor: pointer;
-        }
-        
-        #resetButton:hover {
-            background-color: #45a049;
+            color: #0000FF;
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <!-- ✅ This message proves the page loaded -->
-    <div style="position: absolute; top: 10px; left: 10px; background: white; padding: 10px; border-radius: 10px;">
-        <strong>Yay! The page is loading 🎉</strong>
-    </div>
-
     <canvas id="gameCanvas" width="800" height="600"></canvas>
-    
     <div id="startScreen">
-        <h1>Feed the Capybara</h1>
-        <p>Click anywhere or press any key to play</p>
-        <p>Use arrow keys to aim up or down</p>
-        <p>Press space to shoot tokens</p>
-        <p>Collect 50 tokens to win!</p>
+        <h1>Feed the Capy</h1>
+        <p>Shoot COTI tokens into Capy's mouth</p>
+        <p>to Make Capy Happy</p>
+        <p>Press any key to play</p>
     </div>
-    
-    <div id="gameOver">
-        <h1>Game Over!</h1>
-        <p>You fed the capybara!</p>
-        <button id="resetButton">Play Again</button>
+    <div id="gameOverScreen">
+        <h1>WINNER</h1>
+        <p>Capy is Happy!</p>
+        <p>Press R to play again</p>
     </div>
-    
     <script src="game.js"></script>
 </body>
-</html>
+</html> 
