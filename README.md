@@ -10,15 +10,12 @@ A fun browser-based game where you feed a hungry capybara by shooting tokens int
 2. **Aim**: Use the Up and Down arrow keys to aim your bazooka.
 3. **Shoot**: Press the Space bar to shoot tokens.
 4. **Feed the Capybara**: Hit the capybara's mouth when it's open to collect tokens.
-5. **Watch Out**: At 30 tokens, two small capybaras will appear and start stealing your tokens!
 6. **Win**: Collect 50 tokens to win the game.
 
 ## Game Features
 
 - **Dynamic Capybara**: The capybara moves up and down and opens/closes its mouth.
 - **Challenging Gameplay**: The capybara's mouth only accepts tokens when it's open.
-- **Small Capybaras**: At 30 tokens, two small capybaras appear and start stealing your tokens every 2 seconds.
-- **Bird Distractions**: Random birds fly across the screen to add extra challenge.
 - **Restart Option**: Play again after winning or losing.
 
 ## Controls
